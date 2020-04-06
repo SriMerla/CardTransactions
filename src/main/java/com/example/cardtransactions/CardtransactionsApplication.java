@@ -27,7 +27,12 @@ public class CardtransactionsApplication {
 		System.out.println("From Main Method");
 		CardTransactionService cardTransactionService = context.getBean(CardTransactionService.class);
       //  cardTransactionService.getTransactions();
-		cardTransactionService.maxSno();
+		//cardTransactionService.maxSno();
+		
+		//cardTransactionService.getLatestTransactions();
+		
+		//cardTransactionService.saveToDb();
+		cardTransactionService.getLatestTransactions();
 		
         
         
